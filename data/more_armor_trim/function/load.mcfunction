@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"More Armor Trim datapack has been reloaded","bold":true,"color":"white"}]
