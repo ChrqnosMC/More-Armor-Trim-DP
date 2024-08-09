@@ -1,0 +1,1704 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:amethyst",
+          "pattern": "minecraft:snout"
+        }
+      }
+    },
+    "title": {
+      "translate": "Coordinated Flair"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Wear a suit of armor with all four pieces trimmed with the same material"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/trim_with_any_armor_pattern",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/coordinated_flair"
+  },
+  "criteria": {
+    "amethyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:amethyst"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:amethyst"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:amethyst"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:amethyst"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:copper"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:copper"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:copper"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:copper"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:diamond"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:diamond"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:diamond"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:diamond"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:emerald"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:emerald"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:emerald"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:emerald"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:gold"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:gold"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:gold"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:gold"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:iron"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:iron"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:iron"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:iron"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lapis": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:lapis"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:lapis"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:lapis"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:lapis"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "quartz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:quartz"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:quartz"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:quartz"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:quartz"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:netherite"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:netherite"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:netherite"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:netherite"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:redstone"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:redstone"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:redstone"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:redstone"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "armadillo_scute": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:armadillo_scute"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:armadillo_scute"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:armadillo_scute"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:armadillo_scute"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "blaze_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:blaze_rod"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:blaze_rod"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:blaze_rod"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:blaze_rod"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:bone"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:bone"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:bone"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:bone"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "breeze_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:breeze_rod"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:breeze_rod"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:breeze_rod"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:breeze_rod"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:coal"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:coal"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:coal"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:coal"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dragon_breath": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:dragon_breath"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:dragon_breath"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:dragon_breath"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:dragon_breath"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "echo_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:echo_shard"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:echo_shard"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:echo_shard"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:echo_shard"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "end_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:end_crystal"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:end_crystal"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:end_crystal"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:end_crystal"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ender_pearl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:ender_pearl"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:ender_pearl"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:ender_pearl"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:ender_pearl"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "experience_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:experience_bottle"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:experience_bottle"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:experience_bottle"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:experience_bottle"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "fire_charge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:fire_charge"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:fire_charge"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:fire_charge"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:fire_charge"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "glow_ink_sac": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:glow_ink"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:glow_ink"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:glow_ink"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:glow_ink"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "glowstone_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:glowstone"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:glowstone"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:glowstone"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:glowstone"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gunpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:gunpowder"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:gunpowder"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:gunpowder"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:gunpowder"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "heart_of_the_sea": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:heart_of_the_sea"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:heart_of_the_sea"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:heart_of_the_sea"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:heart_of_the_sea"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "honeycomb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:honeycomb"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:honeycomb"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:honeycomb"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:honeycomb"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:leather"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:leather"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:leather"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:leather"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "nautilus_shell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:nautilus"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:nautilus"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:nautilus"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:nautilus"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "nether_brick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:nether_brick"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:nether_brick"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:nether_brick"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:nether_brick"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "nether_star": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:nether_star"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:nether_star"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:nether_star"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:nether_star"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_scrap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:netherite_scrap"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:netherite_scrap"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:netherite_scrap"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:netherite_scrap"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "phantom_membrane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:phantom_membrane"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:phantom_membrane"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:phantom_membrane"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:phantom_membrane"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "prismarine_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:prismarine"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:prismarine"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:prismarine"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:prismarine"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "prismarine_crystals": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:prismarine_crystals"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:prismarine_crystals"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:prismarine_crystals"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:prismarine_crystals"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "popped_chorus_fruit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:purpur"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:purpur"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:purpur"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:purpur"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rabbit_hide": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:rabbit_hide"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:rabbit_hide"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:rabbit_hide"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:rabbit_hide"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slime_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:slime"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:slime"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:slime"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:slime"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "turtle_scute": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:turtle_scute"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:turtle_scute"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:turtle_scute"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:turtle_scute"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "amethyst",
+      "copper",
+      "diamond",
+      "emerald",
+      "gold",
+      "iron",
+      "lapis",
+      "quartz",
+      "netherite",
+      "redstone",
+      "armadillo_scute",
+      "blaze_rod",
+      "bone",
+      "breeze_rod",
+      "coal",
+      "dragon_breath",
+      "echo_shard",
+      "end_crystal",
+      "ender_pearl",
+      "experience_bottle",
+      "fire_charge",
+      "glow_ink_sac",
+      "glowstone_dust",
+      "gunpowder",
+      "heart_of_the_sea",
+      "honeycomb",
+      "leather",
+      "nautilus_shell",
+      "nether_brick",
+      "nether_star",
+      "netherite_scrap",
+      "phantom_membrane",
+      "popped_chorus_fruit",
+      "prismarine_crystals",
+      "prismarine_shard",
+      "rabbit_hide",
+      "slime_ball",
+      "turtle_scute"
+    ]
+  ]
+}
