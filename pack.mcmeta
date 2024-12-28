@@ -1,7 +1,7 @@
 {
 	"pack": {
-		"pack_format": 58,
-		"supported_formats": [45,58],
+		"pack_format": 57,
+		"supported_formats": [45,57],
 		"description": "More Armor Trim"
 	}
 }
