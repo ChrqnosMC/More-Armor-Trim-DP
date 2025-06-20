@@ -1,0 +1,6 @@
+{
+  "targets": "minecraft:fire_charge",
+  "components": {
+    "minecraft:provides_trim_material": "more_armor_trim:fire_charge"
+  }
+}
