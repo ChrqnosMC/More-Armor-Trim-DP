@@ -1,6 +1,0 @@
-{
-  "targets": "minecraft:slime_ball",
-  "components": {
-    "minecraft:provides_trim_material": "more_armor_trim:slime"
-  }
-}

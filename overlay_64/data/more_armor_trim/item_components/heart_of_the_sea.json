@@ -1,6 +1,0 @@
-{
-  "targets": "minecraft:heart_of_the_sea",
-  "components": {
-    "minecraft:provides_trim_material": "more_armor_trim:heart_of_the_sea"
-  }
-}

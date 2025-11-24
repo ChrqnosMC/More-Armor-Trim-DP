@@ -1,6 +1,0 @@
-{
-  "targets": "minecraft:rabbit_hide",
-  "components": {
-    "minecraft:provides_trim_material": "more_armor_trim:rabbit_hide"
-  }
-}
